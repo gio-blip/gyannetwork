@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+}
+
+section {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+nav {
+    background-color: grey;
+    height: 50px;
+    display: flex; /* Aligns links in a row */
+    align-items: center; /* Centers links vertically */
+    
+}
+
+.on {
+    color: white;
+    font-size: 16px; /* Adjust font size */
+    text-decoration: none;
+    padding: 10px 15px; /* Add some padding around links */
+    text-align: center;
+}
+
+.on:hover {
+    background-color: black; /* Add a hover effect for better UX */
+    color: grey;
+}
+
+.login {
+    margin-left: auto; 
+    color: white;
+    font-size: 16px; /* Adjust font size */
+    text-decoration: none;
+    padding: 10px 15px; /* Add some padding around links */
+    text-align: center;/* Pushes the Login link to the far right */
+}
+.login:hover {
+    background-color: black; /* Add a hover effect for better UX */
+    color: grey;
+}
+@media screen and (max-width: 700px) {
+    nav {
+        flex-direction: column; /* Stacks links vertically */
+        height: auto; /* Allow dynamic height for stacking */
+    }
+    .login {
+        margin-left: 0; /* Reset margin for links */
+    }
+    .para{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+h2{
+    margin-bottom: 20px
+}
+h2 span{
+    background-color: yellow;
+    padding: 10px 55px;
+    
+    
+    border-radius: 20px;
+}
+ 
+h2:hover span {
+    
+    color: white;
+     /* Add padding to make the highlight stand out */
+/* Optional: Rounded corners for better aesthetics */
+}
+.founder{
+    border-radius: 50%;
+}
+.name{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.founder{
+    size: 40px;
+}
+.para{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.reviews{
+
+}
